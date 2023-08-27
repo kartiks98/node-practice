@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const usersSchema = new mongoose.Schema({
   date: {
     required: true,
-    type: Date,
+    type: String,
   },
   name: {
     required: true,
@@ -11,7 +11,7 @@ const usersSchema = new mongoose.Schema({
   },
   dob: {
     required: true,
-    type: Date,
+    type: String,
   },
 });
 

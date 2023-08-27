@@ -3,6 +3,6 @@ const crudRoutes = require("./users/users.router");
 
 const router = express.Router();
 
-router.use("/crud", crudRoutes);
+router.use("/user", crudRoutes);
 
 module.exports = router;
